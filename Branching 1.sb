@@ -1,0 +1,51 @@
+'Camille Dana
+'09/24/17
+'Branching 1A
+'MCSCI-270
+TextWindow.Write("Select first object number: ")
+object1=TextWindow.Read()
+parallelogram=4
+TextWindow.Write("Select Another object number: ")
+object2=TextWindow.Read()
+pentagon=5
+TextWindow.Write("Select Last object number: ")
+object3=TextWindow.Read()
+triangle=3
+odd=5
+even=4
+
+If(object1 + object2=8) Then 
+  TextWindow.Write("The shape is a" + parallelogram)
+Turtle.Show()
+
+GraphicsWindow.Width=500
+GraphicsWindow.Height=500
+Turtle.TurnLeft()
+Turtle.PenDown()
+Turtle.Move(200)
+Turtle.Turn(120)
+Turtle.Move(120)
+Turtle.Turn(60)
+Turtle.Move(200)
+Turtle.Turn(120)
+Turtle.Move(120)
+
+Else
+  If(object1+object2=7) Then
+    TextWindow.Write("The shape is a" + pentagon)
+For i = 1 To 6
+  Turtle.Move(100)
+  Turtle.Turn(60)
+  EndFor
+
+Else
+  If(object1+object2=9) Then
+    TextWindow.Write("The shape is a" + triangle)
+For i = 1 To 3
+Turtle.Move(120)
+Turtle.Turn(120)
+EndFor
+
+EndIf
+  EndIf
+EndIf  
