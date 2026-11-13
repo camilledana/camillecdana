@@ -2,7 +2,8 @@
 
 A Python application that calculates gross wages with overtime logic and validates user input for accurate payroll results. Built to practice clean input handling, business rules, and testable logic.
 
-![Screenshot of the Gross Wage Calculator](screenshots/app-screenshot.png)
+![Screenshot of the Gross Wage Calculator](<img width="498" height="434" alt="Screenshot 2026-11-13 061612" src="https://github.com/user-attachments/assets/f9b293cb-48dd-43b2-90f6-df2e2d8369ec" />
+)
 
 ## Why This Project Exists
 
